@@ -7,6 +7,7 @@ Este repositório contém vários plugins para WordPress desenvolvidos por Frank
 - [AtualizarPrice]: Um plugin para atualizar preços de produtos no WooCommerce.
 - [plugin Desconto]: Um plugin para colocar preço promocional ainda manual. o desconto está de 30%
 
+
 ## Instalação
 
 Para instalar qualquer plugin deste repositório, siga as instruções no README específico de cada plugin.
