@@ -1,0 +1,12 @@
+/*
+Theme Name: Handel
+Author: origamid Frankllin
+*/
+@import url("./css/base.css");
+@import url("./css/header.css");
+@import url("./css/home.css");
+@import url('./css/slide.css');
+@import url(./css/produtos.css);
+@import url(./css/footer.css);
+@import url(./css/produto.css);
+@import url(./css/woocommerce.css);

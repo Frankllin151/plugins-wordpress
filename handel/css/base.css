@@ -1,0 +1,101 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+  box-sizing: border-box;
+}
+  body{
+    font-family: "Roboto",  sans-serif; 
+    margin: 0;
+    font-size: 1.125rem;
+      
+  }
+  ul{
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  }
+  p, h1,h2,h3,h4, h5{
+    margin: 0px;
+  }
+  a{
+    text-decoration: none;
+    color: #000;
+  }
+  /*diminuir img de acordo com a tela (reposividade)*/
+  img{
+    max-width: 100%;
+    display: block;
+  }
+  /*container base vai envolver todos conteúdo do site*/
+  .container{
+    padding: 0px 20px;
+   max-width: 1000px;
+   margin: 60px auto;
+  }
+.container-separador{
+  background: #f8f8f8;
+  padding: 20px;
+}
+
+  .container-index{
+    margin: 30px auto;
+  }
+  .title-geral{
+    margin-bottom: 20px;
+    font-weight: normal;
+    color: #fff;
+  padding: 30px 0px;
+  text-transform: uppercase;
+  font-size: 1.25rem;
+    background: #111;
+    text-align: center;
+  }
+  
+  /*estilo geral para esconde alguma coisa*/
+  .hidden{
+    display: none;
+  }
+  /*subtitulo*/
+ .subtitulo{
+text-align: center;
+text-transform: uppercase;
+font-size: 2.375rem;
+margin-bottom: 60px;
+
+  }
+.subtitulo::before , .subtitulo::after{
+ content: "";
+ display: block;
+ width: 100px;
+ height: 6px;
+ background: currentColor;
+transform: skew(-20deg);
+  }
+.subtitulo::before{
+  margin: 0px calc(50% + 20px) 0 auto;
+
+}
+.subtitulo::after{
+  margin: 5px calc(50% - 120px) 0 auto;
+
+}
+
+
+  .btn-link{
+    padding: 15px;
+    background:#fff;
+    max-width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    }
+    
+    .btn-link::after{
+      content: "";
+      display: block;
+      background: url(../img/icons/arrow.svg) no-repeat center center;
+      width: 18px;
+      height: 18px;
+    }
+  
